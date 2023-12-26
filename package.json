@@ -1,0 +1,35 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "Package Manager - Prabu",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bsprabu/react-playground.git"
+  },
+  "keywords": [
+    "react",
+    "react-playground"
+  ],
+  "author": "Prabu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsprabu/react-playground/issues"
+  },
+  "homepage": "https://github.com/bsprabu/react-playground#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
